@@ -4,14 +4,16 @@
 
 ## Motivation
 
-In a Joomla context, we are in a transition to modern design practices. Gantry is one of the best template frameworks for Joomla. Gantry's templates come with everything you need and more, "batteries-included". On the other hand, Tailwind CSS is an utility-first CSS framework, the bare minimum toolset (PostCSS) with common-sense definitions to build a powerful CSS framework.
+In a Joomla context, we are in a transition to modern design practices. Gantry is one of the best template frameworks for Joomla. Gantry's templates come with everything you need and more, "batteries-included". On the other hand, Tailwind CSS is a utility-first CSS framework, the bare minimum toolset (PostCSS) with common-sense definitions to build a robust CSS framework.
 
 To ease the transition to modern practices, I'm publishing this hybrid template. These are the guidelines of this template and the instructions to do the same on other similar templates:
 
 - Based on Hydrogen Theme
-- **Cut the head**: Remove Gantry's rendered HTML head (check the template index.php) 
+- **Cut the head**: Remove Gantry's rendered HTML head (check the template index.php)
 - **Add the scripts to run Tailwind CSS**: Based on my [anibalsanchez/XT-Tailwind-for-Joomla] template, adapt the scripts to generate the optimized CSS.
 - Configure the new HTML head to find the new CSS files and what is needed to fill the requirements of the project.
+
+The final objective is creating templates that can exist side by side with full templates and migrate pages to the new optimized structure. It is not a perfect solution (it requires manual tasks to migrate scripts and styles), but it is what we can do to migrate the current generation of sites incrementally.
 
 ## Acknowledgements
 

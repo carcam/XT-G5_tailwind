@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" version="3.9" client="site" method="upgrade">
-  <name>tpl_xtg5_tailwind</name>
+  <name>xtg5_tailwind</name>
   <version>5.4.30</version>
   <creationDate>2019-10-04</creationDate>
 

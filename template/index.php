@@ -20,4 +20,22 @@ $theme = $gantry['theme'];
 $context = array();
 
 // Render the page.
-echo $theme->render('index.html.twig', $context);
+$renderedPage = $theme->render('index.html.twig', $context);
+
+// Remove JDocument head
+$noJDocPage = str_replace('<jdoc:include type="head" />', '', $renderedPage);
+
+// Remove IE scripts
+$noStylesScriptsPage = preg_split('#<!--\[if \(gte IE 8\)&\(lte IE 9\)\]>|<!\[endif\]-->#', $noJDocPage);
+
+// Remove other g5 scripts
+$restOfPage = $noStylesScriptsPage[2];
+$restOfPageNoMainScript = preg_split('#<script type="text/javascript" src="/media/gantry5/assets/js/main|</script>#', $restOfPage);
+
+// Rebuild the HTML page
+$htmlPage = [];
+$htmlPage[] = $noStylesScriptsPage[0];
+$htmlPage[] = $restOfPageNoMainScript[0];
+$htmlPage[] = $restOfPageNoMainScript[2];
+
+echo implode('', $htmlPage);

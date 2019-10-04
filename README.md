@@ -9,9 +9,10 @@ In a Joomla context, we are in a transition to modern design practices. Gantry i
 To ease the transition to modern practices, I'm publishing this hybrid template. These are the guidelines of this template and the instructions to do the same on other similar templates:
 
 - Based on Hydrogen Theme
-- **Cut the head**: Remove Gantry's rendered HTML head (check the template index.php)
+- **Cut the head**: Remove Gantry's rendered HTML head (check the template index.php). The idea is removing all the Joomla and Gantry default scripts and styles. *Yes, totally backwards-incompatible changes*.
 - **Add the scripts to run Tailwind CSS**: Based on my [anibalsanchez/XT-Tailwind-for-Joomla](https://github.com/anibalsanchez/XT-Tailwind-for-Joomla) template, adapt the scripts to generate the optimized CSS.
 - Configure the new HTML head to find the new CSS files and what is needed to fill the requirements of the project.
+- Of course, all scripts and styles must be defined ad-hoc, or with a different [Document Assets Renderer](https://github.com/anibalsanchez/XT-Tailwind-for-Joomla/blob/master/template/XTHtmlAssetsRenderer.php).
 
 The final objective is creating templates that can exist side by side with full templates and migrate pages to the new optimized structure. It is not a perfect solution (it requires manual tasks to migrate scripts and styles), but it is what we can do to migrate the current generation of sites incrementally.
 

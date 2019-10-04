@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" version="3.9" client="site" method="upgrade">
-  <name>tpl_[EXTENSION_ALIAS]</name>
+  <name>[EXTENSION_ALIAS]</name>
   <version>[RELEASE_VERSION]</version>
   <creationDate>[DATE]</creationDate>
 
@@ -34,7 +34,6 @@
     <file>offline.php</file>
     <file>template_preview.png</file>
     <file>template_thumbnail.png</file>
-    <file>MD5SUMS</file>
   </files>
 
   <positions>

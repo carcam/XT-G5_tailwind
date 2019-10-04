@@ -1,4 +1,4 @@
-# Tailwind for Joomla Gantry
+# Tailwind CSS for Joomla Gantry
 
 **XT-G5_tailwind** is an hybrid template to leverage Joomla's [Gantry framework](http://gantry.org) on [Tailwind CSS](https://tailwindcss.com/) (the utility-first CSS framework).
 
@@ -10,7 +10,7 @@ To ease the transition to modern practices, I'm publishing this hybrid template.
 
 - Based on Hydrogen Theme
 - **Cut the head**: Remove Gantry's rendered HTML head (check the template index.php)
-- **Add the scripts to run Tailwind CSS**: Based on my [anibalsanchez/XT-Tailwind-for-Joomla] template, adapt the scripts to generate the optimized CSS.
+- **Add the scripts to run Tailwind CSS**: Based on my [anibalsanchez/XT-Tailwind-for-Joomla](https://github.com/anibalsanchez/XT-Tailwind-for-Joomla) template, adapt the scripts to generate the optimized CSS.
 - Configure the new HTML head to find the new CSS files and what is needed to fill the requirements of the project.
 
 The final objective is creating templates that can exist side by side with full templates and migrate pages to the new optimized structure. It is not a perfect solution (it requires manual tasks to migrate scripts and styles), but it is what we can do to migrate the current generation of sites incrementally.

@@ -1,0 +1,9 @@
+xtg5_tailwind-theme:
+  title: 'XT-G5 Tailwind Theme'
+  description: 'Sample menu for XT-G5 Tailwind theme.'
+
+  items:
+    xtg5_tailwind:
+      title: 'Home'
+      outline: home
+      home: 1

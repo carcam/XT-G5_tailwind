@@ -1,7 +1,7 @@
 {
   "name": "xtg5_tailwind",
   "version": "5.4.30",
-  "description": "Boilerplate files for Joomla! extensions.",
+  "description": "Tailwind CSS for Joomla Gantry.",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode=production",

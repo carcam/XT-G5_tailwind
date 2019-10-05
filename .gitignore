@@ -57,3 +57,6 @@ tslint.json
 /var/
 
 # Symlinks
+
+template/tailwind/dist/main.js
+template/tailwind/dist/main.*.css

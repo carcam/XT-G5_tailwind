@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8.0" type="package" method="upgrade">
+  <packagename>xtg5_tailwind</packagename>
+  <packager>Extly, CB</packager>
+  <packagerurl>https://www.extly.com</packagerurl>
+  <name>Tailwind CSS for Joomla Gantry</name>
+  <description>XT-G5_tailwind is an hybrid template to leverage Joomla Gantry framework on Tailwind CSS (the utility-first CSS framework).</description>
+  <version>5.4.30</version>
+  <creationDate>2019-10-05</creationDate>
+
+	<author>Extly, CB</author>
+	<authorEmail>team@extly.com</authorEmail>
+	<authorUrl>https://www.extly.com</authorUrl>
+	<copyright>Copyright (c)2007-2019 Extly, CB All rights reserved.</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+
+  <!-- List of extensions to install -->
+  <files>
+    <!-- Template -->
+    <file type="template" client="site" id="xtg5_tailwind">template</file>
+
+    <!-- Library -->
+    <file type="library">library</file>
+  </files>
+  <!-- Installation script -->
+  <scriptfile>script.xtg5_tailwind.php</scriptfile>
+  <!-- Update servers -->
+  <updateservers>
+  </updateservers>
+</extension>

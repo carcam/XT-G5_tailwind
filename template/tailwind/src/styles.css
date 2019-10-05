@@ -1,0 +1,126 @@
+@tailwind base;
+
+h1 {
+  @apply text-5xl font-semibold;
+}
+h2 {
+  @apply text-4xl font-semibold mt-3 mb-6;
+}
+h3 {
+  @apply text-3xl font-semibold;
+}
+
+p {
+  @apply my-6;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  @apply antialiased font-sans leading-normal text-grey leading-normal bg-white
+}
+
+.g-container {
+  @apply mx-auto
+}
+
+.g-container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .g-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .g-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .g-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .g-container {
+    max-width: 1280px;
+  }
+}
+
+#g-navigation {
+  @apply bg-green-700
+}
+
+#g-navigation .g-main-nav .g-toplevel {
+  @apply flex justify-center
+}
+
+.g-main-nav .g-toplevel > li {
+  @apply bg-white
+}
+
+.g-main-nav .g-toplevel>li>.g-menu-item-container {
+  @apply block py-6 px-4
+}
+
+#g-showcase {
+  @apply bg-gray-700 py-6 text-white
+}
+
+#g-showcase .g-content {
+  @apply p-4 m-2
+}
+
+#g-offcanvas {
+  @apply hidden
+}
+
+.sample-content {
+  @apply text-center
+}
+
+.sample-description {
+  @apply pt-6 px-24 text-lg
+}
+
+#g-showcase a {
+  @apply text-gray-400
+}
+
+#g-showcase a.button {
+  @apply text-white
+}
+
+#g-showcase .button {
+  @apply bg-purple-700
+}
+
+.button {
+  @apply inline-block px-4 py-2 rounded align-middle font-semibold text-base bg-gray-600 text-white;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+#sample-2-particle .sample-description p {
+  @apply w-1/2 text-left
+}
+
+.info-box {
+  @apply bg-gray-200 rounded border border-solid p-4
+}
+.info-box p {
+  @apply w-full
+}
+.fa-graduation-cap {
+  @apply w-48 h-64
+}

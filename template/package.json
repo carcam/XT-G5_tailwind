@@ -1,0 +1,38 @@
+{
+  "name": "xtg5_tailwind",
+  "version": "5.4.30",
+  "description": "XT-G5_tailwind is an hybrid template to leverage Joomla Gantry framework on Tailwind CSS (the utility-first CSS framework).",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "prod": "cross-env NODE_ENV=production webpack --no-progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anibalsanchez/XT-TailwindCSS-Starter.git"
+  },
+  "keywords": [
+    "Tailwind, CSS, Webpack, PostCSS, cssnano, purgecss"
+  ],
+  "author": "Extly CB",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "cross-env": "^5.2",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
+    "filemanager-webpack-plugin": "^2.0.5",
+    "glob": "^7.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "postcss": "^7.0.17",
+    "postcss-clean": "^1.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^1.1.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  }
+}

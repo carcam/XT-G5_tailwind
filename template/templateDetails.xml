@@ -2,7 +2,7 @@
 <extension type="template" version="3.9" client="site" method="upgrade">
   <name>xtg5_tailwind</name>
   <version>5.4.30</version>
-  <creationDate>2019-10-05</creationDate>
+  <creationDate>2019-12-19</creationDate>
 
 	<author>Extly, CB</author>
 	<authorEmail>team@extly.com</authorEmail>
